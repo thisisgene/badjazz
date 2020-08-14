@@ -1,0 +1,62 @@
+.bg-img
+  img(src='/assets/img/Eugene Delta - Bad Jazz Cover _blur.jpg')
+
+.main-wrapper
+  .main-container
+    .cover-container
+     
+      .cover
+
+        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=306&height=306&color=110000&layout=dark&size=medium&type=album&id=160508092&app_id=1', width=306, height=306)#dz-root.preview-box.mobile
+        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=526&height=526&color=000000&layout=dark&size=big&type=album&id=160508092&app_id=1', width=526, height=526).preview-box.desktop
+        .play-button(onclick="javascript:document.getElementById('dz-root').className += ' fadeIn';this.className += ' hidden';")
+          img(src='/assets/img/playPreview.png')
+    .content-container
+
+      .title-container
+        h2 Eugene Delta
+        h1 Bad Jazz
+      .link-wrapper
+        .link-container
+          .link-list
+            //- .link
+            //-   a(href='https://itunes.apple.com/at/album/black-dogs-ep/id1299224545?app=itunes').itunes
+            //-     img(src='https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_itunes.svg')
+            //-     span.button Download
+            .link
+              a(href='https://music.apple.com/us/album/bad-jazz-single/1523349626').applemusic
+                img(src='https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_applemusic.svg')
+                span.button Play
+            .link
+              a(href='https://open.spotify.com/track/3KVhNbs0BSreJlkg18ECUq').spotify
+                img(src='https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_spotify.svg')
+                span.button Play
+            .link
+              a(href='https://www.deezer.com/album/160508092').deezer
+                img(src='https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_deezer.svg')
+                span.button Play
+            .link
+              a(href='https://napster.com/artist/eugene-delta/album/bad-jazz').googleplay
+                img(src='https://services.linkfire.com/logo_napster_onlight.svg')
+                span.button Play
+            .link
+              a(href='https://music.amazon.com/albums/B08CWFTRFP?trackAsin=B08CVVMJNH&ref=dm_sh_3108-57c8-dmcp-6706-e51c0&musicTerritory=US&marketplaceId=ATVPDKIKX0DER').amazon
+                img(src='https://b8dc26f18050b3315e3d-25699625cd604ffbdd1a1ecb34531b42.ssl.cf3.rackcdn.com/images/music-service_amazonmp3.svg')
+                span.button Play
+            
+            .link
+              a(href='https://music.youtube.com/watch?v=G0yoG8mViXo').youtube
+                img(src='https://services.linkfire.com/logo_youtubemusic_onlight.svg')
+                span.button Play
+  //- .video
+  //-   <iframe width="560" height="420" src="https://www.youtube.com/embed/rHvVfHsE-34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  .social
+    .sm-link
+      a(target="_blank" href='https://www.facebook.com/eugenedelta')
+        img(src='./assets/img/logos/facebook.png')
+      a(target="_blank" href='https://www.instagram.com/eugene.delta/')
+        img(src='./assets/img/logos/instagram.png')
+      a(href='mailto:contact@eugenedelta.com')
+        img(src='./assets/img/logos/mail.png')
+  .link-to-page
+    a(href="http://eugenedelta.com") &#8594; go to eugenedelta.com
