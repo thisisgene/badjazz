@@ -163,7 +163,8 @@ body {
           background: black;
           width: 100%;
           height: 100%;
-          opacity: 0; }
+          opacity: 0;
+          transition: 200ms opacity ease-in-out; }
         .main-container .cover-container .cover .mobile {
           display: none; }
     .main-container .content-container .album-info-mobile {

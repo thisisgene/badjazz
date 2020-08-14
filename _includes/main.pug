@@ -7,10 +7,11 @@
      
       .cover
 
-        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=306&height=306&color=110000&layout=dark&size=medium&type=album&id=160508092&app_id=1', width=306, height=306)#dz-root.preview-box.mobile
-        iframe(scrolling='no', frameborder='0', allowtransparency='true', src='https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=526&height=526&color=000000&layout=dark&size=big&type=album&id=160508092&app_id=1', width=526, height=526).preview-box.desktop
+        iframe(allow="encrypted-media *;", frameborder="0", height="306", style="width:100%;max-width:660px;overflow:hidden;background:transparent;", src="https://embed.music.apple.com/us/album/bad-jazz-single/1523349626")#dz-root.preview-box.mobile
+        iframe(allow="encrypted-media *;", frameborder="0", height="526", style="width:100%;max-width:660px;overflow:hidden;background:transparent;", src="https://embed.music.apple.com/us/album/bad-jazz-single/1523349626").preview-box.desktop
         .play-button(onclick="javascript:document.getElementById('dz-root').className += ' fadeIn';this.className += ' hidden';")
           img(src='/assets/img/playPreview.png')
+          //- <iframe ></iframe>
     .content-container
 
       .title-container
