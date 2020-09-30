@@ -28,11 +28,30 @@ body {
 
 @media (min-width: 921px) {
   .main-wrapper {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center;
+    padding: 2rem 0; } }
+
+.main-wrapper .video {
+  margin: 1rem auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 875px; }
+
+.main-wrapper .video::after {
+  padding-top: 56.25%;
+  display: block;
+  content: ''; }
+
+.main-wrapper .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .main-wrapper .social {
   display: flex;
